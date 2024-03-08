@@ -1,0 +1,150 @@
+body#index {
+    background: linear-gradient(to right, rgb(211, 236, 255), rgb(107, 164, 254));
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#title {
+    font-size: 7vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-top: 4vh;
+}
+
+.container {
+    height: 85vh;
+    width: 35vw;
+    background-color: rgba(240, 248, 255, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.32);
+}
+
+.emailDiv {
+    font-size: 2.3vw;
+    font-family: verdana;
+    margin-top: 3vw;
+}
+
+.passwordDiv {
+    margin-top: 2.5vw;
+    font-size: 2.3vw;
+    font-family: verdana;
+}
+
+#emailInput, #passwordInput {
+    border-radius: 5px;
+    border: none;
+    height: 2.5vw;
+    width: 20vw;
+    font-size: large;
+}
+
+#passTogle {
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    width: max-content;
+    font-size: 1.7vw;
+    border-radius: 6px;
+    border: none;
+    background: linear-gradient(to right, rgb(102, 102, 255), rgb(21, 239, 255));
+    height: max-content;
+    transition: transform 0.1s;
+}
+#passTogle:active {
+    transform: scale(0.7);
+} 
+
+
+
+#EntraBtn {
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    width: 20vw;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 204, 0);
+    height: 10vh;
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+
+#EntraBtn:active { transform: scale(0.6); }
+#EntraBtn:hover { background-color: rgb(255, 160, 0);}
+
+#description {
+    color: #007bff;
+    font-family: arial;
+    font-weight: 600;
+}
+
+#blueHr {
+    border-color: #0084ff;
+    border-width: 1.25px;
+}
+
+#save {
+    width:  7vw;
+    height: 5.5vh;
+    position: absolute;
+    left: 90vw;
+    top: 2.5vh;
+    font-family: arial;
+    font-size: 1.4vw;
+    color: #0066ff;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 3px solid #0066ff;
+}
+
+.f{
+    margin-top: .2vw; 
+    margin-bottom: .2vw;
+}
+
+#suka {
+    background-color: #0073ff;
+    color: white;
+    font-family: arial;
+}
+
+#aluns {
+    margin-top: 0.5vw;
+}
+
+#checkboxs {
+    width: 50vw;
+    height: 82vh;
+    overflow-y: scroll;
+    font-family: arial;
+}
+
+.second {
+    position: absolute;
+    left: 55vw;
+    top: 15vh;
+}
+
+.mins {
+    position: absolute;
+    left: 8vw;
+    top: 10vh;
+}
+
+#minutes {
+    position: absolute;
+    left: 8vw;
+}
+
+body {
+    font-family: arial;
+}
